@@ -1,0 +1,31 @@
+{
+  "name": "repair-design",
+  "version": "1.0.0",
+  "description": "site for building company",
+  "main": "index.js",
+  "scripts": {
+    "test": "tets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksey140569/repair-design.git"
+  },
+  "keywords": [
+    "repair",
+    "build",
+    "design"
+  ],
+  "author": "Aleksey Morozov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aleksey140569/repair-design/issues"
+  },
+  "homepage": "https://github.com/Aleksey140569/repair-design#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-gitignore": "^0.1.0",
+    "gulp-rename": "^2.0.0"
+  }
+}
