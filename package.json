@@ -27,5 +27,8 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-gitignore": "^0.1.0",
     "gulp-rename": "^2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
