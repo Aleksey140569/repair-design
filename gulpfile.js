@@ -6,15 +6,15 @@ const gulp = require('gulp'),
 gulp.task('browser-sync', () => {
   browserSync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./src/"
     }
   });
-  gulp.watch('./*.html').on('change', browserSync.reload);
-  gulp.watch('./*.css').on('change', browserSync.reload);
+  gulp.watch('./src/*.html').on('change', browserSync.reload);
+  gulp.watch('./src/*.css').on('change', browserSync.reload);
 });
 
 gulp.task('minify-css', () => {
-  return gulp.src('./*.css')
+  return gulp.src('./src/*.css')
   .pipe(cleanCSS())
   .pipe(rename({
     suffix: ".min",
