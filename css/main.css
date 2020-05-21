@@ -1,62 +1,37 @@
 @font-face {
   font-family: 'FuturaDemiC';
-  src: url('../fonts/FuturaDemiC.eot');
-  src: local('Futura Demi Cyrillic'), local('FuturaDemiC'),
-	url('../fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/FuturaDemiC.woff') format('woff'),
-	url('../fonts/FuturaDemiC.ttf') format('truetype');
+  src: url("../fonts/FuturaDemiC.eot");
+  src: local("Futura Demi Cyrillic"), local("FuturaDemiC"), url("../fonts/FuturaDemiC.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaDemiC.woff") format("woff"), url("../fonts/FuturaDemiC.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
   font-family: 'FuturaLightC';
-  src: url('../fonts/FuturaLightC.eot');
-  src: local('Futura Light Cyrillic'), local('FuturaLightC'),
-	url('../fonts/FuturaLightC.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/FuturaLightC.woff') format('woff'),
-	url('../fonts/FuturaLightC.ttf') format('truetype');
+  src: url("../fonts/FuturaLightC.eot");
+  src: local("Futura Light Cyrillic"), local("FuturaLightC"), url("../fonts/FuturaLightC.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaLightC.woff") format("woff"), url("../fonts/FuturaLightC.ttf") format("truetype");
   font-weight: 300;
-  font-style: normal;
-}
+  font-style: normal; }
 
 @font-face {
-	font-family: 'FuturaBookC';
-	src: url('../fonts/FuturaBookC.eot');
-	src: local('Futura Book Cyrillic'), local('FuturaBookC'),
-		url('../fonts/FuturaBookC.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/FuturaBookC.woff') format('woff'),
-		url('../fonts/FuturaBookC.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0 0 0 0;
-  padding:0 0 0 0;
-}
-
-ul, li {
-  list-style-type: none;
-}
+  font-family: 'FuturaBookC';
+  src: url("../fonts/FuturaBookC.eot");
+  src: local("Futura Book Cyrillic"), local("FuturaBookC"), url("../fonts/FuturaBookC.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaBookC.woff") format("woff"), url("../fonts/FuturaBookC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 .container {
   margin: 0 auto;
-  width: 1438px;
-}
+  width: 1438px; }
 
 .header {
   background: #131313;
   color: #ffffff;
-  font-family: 'FuturaDemiC', sans-serif;
-}
+  font-family: 'FuturaDemiC', sans-serif; }
 
 .navigation {
   align-items: center;
   display: flex;
-  height: 83px;
-}
+  height: 83px; }
 
 .logo {
   color: #e3b873;
@@ -64,24 +39,19 @@ ul, li {
   font-weight: 500;
   line-height: 16px;
   text-decoration: none;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .logo__navigation {
-  margin: 0 110px 0 82px;
-}
+  margin: 0 110px 0 82px; }
 
 .menu {
-    display: flex;
-}
+  display: flex; }
 
 .menu__item {
-  margin: 0 41.5px 0 0;
-}
+  margin: 0 41.5px 0 0; }
 
 .menu__item:last-child {
-  margin: 0 0 0 0;
-}
+  margin: 0 0 0 0; }
 
 .menu__link {
   color: #ffffff;
@@ -89,27 +59,22 @@ ul, li {
   font-size: 14px;
   letter-spacing: 0;
   text-decoration: none;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .menu__link:hover,
 .menu__link_active {
-  color: #e3b873;
-}
+  color: #e3b873; }
 
 .phone-order {
   color: #e3b873;
   font-size: 14px;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .phone-order:hover {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .phone-order__navigation {
-  margin: 0 0 0 130px;
-}
+  margin: 0 0 0 130px; }
 
 .button-order {
   -ms-border-radius: 2px;
@@ -119,8 +84,7 @@ ul, li {
   align-items: center;
   background: #e3b873;
   border-radius: 2px;
-  box-shadow: 0px, 5px
-  rgba(227, 184, 115, 0.2);
+  box-shadow: 0px, 5px rgba(227, 184, 115, 0.2);
   color: #ffffff;
   display: flex;
   font-size: 13px;
@@ -129,17 +93,14 @@ ul, li {
   height: 37px;
   text-decoration: none;
   text-transform: uppercase;
-  width: 161px;
-}
+  width: 161px; }
 
 .button-order:hover {
   background: #242019;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .button-order__navigation {
-  margin: 0 0 0 46px;
-}
+  margin: 0 0 0 46px; }
 
 .instagram {
   -ms-transform: rotate(90deg);
@@ -155,20 +116,17 @@ ul, li {
   position: absolute;
   transform: rotate(90deg);
   top: 348px;
-  width: 622px;
-}
+  width: 622px; }
 
 .instagram__link {
   color: #e3b873;
   font-family: 'FuturaDemiC', sans-serif;
   font-size: 14px;
   text-decoration: none;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .instagram__link:hover {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .instagram__link::after {
   background: #e3b873;
@@ -177,15 +135,13 @@ ul, li {
   height: 2px;
   margin: 0 0 0 14px;
   vertical-align: middle;
-  width: 51px;
-}
+  width: 51px; }
 
 .offer {
   background: #c3c7e2 url(../img/first-screen.jpg) no-repeat center top/cover;
   margin: 0px 0 0 91px;
   padding: 190px 0 206px 50px;
-  position: relative;
-}
+  position: relative; }
 
 .offer__title {
   font-family: 'Yeseva One', cursive;
@@ -195,24 +151,20 @@ ul, li {
   margin: 0 0 19px 0;
   padding: 1px 0 0 1px;
   text-transform: uppercase;
-  width: 34%;
-}
+  width: 34%; }
 
 .offer__title_decoration {
-  color: #e3b873;
-}
+  color: #e3b873; }
 
 .offer__text {
   font-family: 'FuturaBookC', sans-serif;
   font-size: 22px;
   line-height: 130%;
   margin: 0 0 48px 0;
-  width: 43%;
-}
+  width: 43%; }
 
 .offer-wrapper {
-  display: flex;
-}
+  display: flex; }
 
 .calculate-cost {
   -ms-border-radius: 2px;
@@ -222,8 +174,7 @@ ul, li {
   align-items: center;
   background: #e3b873;
   border-radius: 2px;
-  box-shadow: 0 0 5px
-  rgba(227, 184, 115, 0.2);
+  box-shadow: 0 0 5px rgba(227, 184, 115, 0.2);
   color: #ffffff;
   font-size: 13px;
   display: flex;
@@ -232,12 +183,10 @@ ul, li {
   margin: 0 22px 0 0;
   text-decoration: none;
   text-transform: uppercase;
-  width: 207px;
-}
+  width: 207px; }
 
 .calculate-cost:hover {
-  background: #242019;
-}
+  background: #242019; }
 
 .make-order {
   -ms-border-radius: 2px;
@@ -255,8 +204,7 @@ ul, li {
   justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: 207px;
-}
+  width: 207px; }
 
 .down {
   background: #131313;
@@ -266,30 +214,26 @@ ul, li {
   right: 1191px;
   position: absolute;
   text-transform: uppercase;
-  width: 247px;
-}
+  width: 247px; }
 
 .down-wrapper {
   padding: 45px 0 0 47px;
-  position: relative;
-}
+  position: relative; }
 
 .down__text {
   color: #ffffff;
-  font-family: 'Yeseva One', cursive;
-}
+  font-family: 'Yeseva One', cursive; }
 
 .down__circle {
   border: 1px solid #e3b873;
   border-radius: 50%;
   height: 29px;
   right: 49px;
-  padding:  8px 0 0 8px;
+  padding: 8px 0 0 8px;
   position: absolute;
   top: 37px;
   width: 29px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
+  -o-border-radius: 50%; }

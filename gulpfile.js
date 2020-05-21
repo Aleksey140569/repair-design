@@ -4,16 +4,16 @@ const rename = require('gulp-rename');
 const cleanCSS = require('gulp-clean-css');
 const sass = require('gulp-sass');
 
-const watchDirHtml = './app/*.html';
-const watchDirSass = './src/sass/**.scs';
-const watchDirJs = './src/js/*.js';
-const cssOutput = './app/css/';
+const watchDirHtml = './*.html';
+const watchDirSass = './sass/main.scss';
+const watchDirJs = './js/*.js';
+const cssOutput = './css';
 
 const browserSyncRun = () => {
   serverSass();
   browserSync.init({
     server: {
-      baseDir: './src'
+      baseDir: './'
     }
   });
   watch(watchDirHtml).on('change', browserSync.reload);

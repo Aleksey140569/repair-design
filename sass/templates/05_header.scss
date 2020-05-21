@@ -1,71 +1,29 @@
-@font-face {
-    font-family: 'FuturaDemiC';
-    src: url('../fonts/FuturaDemiC.eot');
-    src: local('Futura Demi Cyrillic'), local('FuturaDemiC'),
-      url('../fonts/FuturaDemiC.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/FuturaDemiC.woff') format('woff'),
-      url('../fonts/FuturaDemiC.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'FuturaLightC';
-    src: url('../fonts/FuturaLightC.eot');
-    src: local('Futura Light Cyrillic'), local('FuturaLightC'),
-      url('../fonts/FuturaLightC.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/FuturaLightC.woff') format('woff'),
-      url('../fonts/FuturaLightC.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  @font-face {
-      font-family: 'FuturaBookC';
-      src: url('../fonts/FuturaBookC.eot');
-      src: local('Futura Book Cyrillic'), local('FuturaBookC'),
-          url('../fonts/FuturaBookC.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/FuturaBookC.woff') format('woff'),
-          url('../fonts/FuturaBookC.ttf') format('truetype');
-      font-weight: normal;
-      font-style: normal;
-  }
-  
-  * {
-    box-sizing: border-box;
-    margin: 0 0 0 0;
-    padding:0 0 0 0;
-  }
-  
-  ul, li {
-    list-style-type: none;
-  }
-  
-  .container {
+
+.container {
     margin: 0 auto;
     width: 1438px;
   }
   
-  .header {
-    background: #131313;
-    color: #ffffff;
-    font-family: 'FuturaDemiC', sans-serif;
-  }
+.header {
+  background: #131313;
+  color: #ffffff;
+  font-family: 'FuturaDemiC', sans-serif;
+}
   
-  .navigation {
-    align-items: center;
-    display: flex;
-    height: 83px;
-  }
+.navigation {
+  align-items: center;
+  display: flex;
+  height: 83px;
+}
   
-  .logo {
-    color: #e3b873;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+.logo {
+  color: #e3b873;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
   
   .logo__navigation {
     margin: 0 110px 0 82px;
